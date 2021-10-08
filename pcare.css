@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+*{margin: 0;padding: 0;}
+body
+{   color: black;
+	background-color: #ffffff;
+	background-image: url("logo_2.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 300px;
+	font-family: 'Roboto', sans-serif;
+}
+.header
+	{position: fixed;width: 100%;background-color: #fefefe;color: black; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.pcare
+	{font-size: 3em;text-align: center;color:  #3ea6ff;}
+.logo
+	{width: 100px;height: 70px;}
+.menu
+	{
+		margin:auto;
+		width:100%;
+		display: inline-block;font-size: 1.7em;
+	 background-color: #dbdbdc;}
+.wraper
+	{
+		margin: auto;
+		width: max-content;
+	}
+.wraper div
+	{
+		padding-left: 10px;
+		padding-right: 56px;
+	}
+.menu img
+	{width: 25px;margin: auto;padding-left: 10px;}
+.link
+	{text-decoration: none;color: black;}
+.home
+	{display:inline-block;text-align: center;margin: auto;}
+.teachers
+	{display:inline-block;text-align: center;}
+.students
+	{display:inline-block;text-align: center;position: relative;}
+.dropdown
+	{display: none;position: absolute;width:30px;margin-left: 45px; 
+	 box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;z-index: 1;background-color: white;}
+.dropdown a{text-decoration: none;color: black;background-color: white;padding-left: 10px;padding-right: 10px;}
+.students:hover .dropdown{display: block;}
+.dropdown a:hover {background-color: #c1c1c1;}
+.exam
+	{display:inline-block;text-align: center;}
+.notice
+	{display:inline-block;text-align: center;}
+.about
+	{display:inline-block;text-align: center;}
+.archive
+	{display:inline-block;text-align: center;}
+.admission
+	{display: inline-block;text-align: center;}
+.fake-header
+	{background-color: white;height: 115px;}
+.body
+	{display:inline-block;text-align: right;padding-right: 15px;padding-top: 30px;padding-left: 320px;margin: auto;}
+.welcome
+	{text-align: center;font-size: 2.5em;}
+.slogan
+	{text-align: center;font-size: 2em;font-family: 'Hind Siliguri', sans-serif;}
+.intro
+	{padding-right: 170px;padding-top: 30px;}
+.features
+	{display:inline-block; text-align: left;padding-right:300px;
+	 padding-top: 30px;font-family: 'Hind Siliguri', sans-serif;font-size: 1.5em;padding-left: 3px;}
+.ul
+	{padding-left: 15px;color:gray;font-size: 2em;}
+.features-2nd
+	{display: inline-block;}
+.footer
+	{
+		background-color: #26272b;
+		color:#929276;
+		width: 100%;
+		margin-top: 30px;
+	}
+.social
+	{height: 100px;padding-left: 10px;width: 150px;display: inline-block;
+	 padding-right: 10px;color: #929276;padding-top: 10px;padding-bottom: 5px;}
+.pcare-links
+	{text-decoration: none;color: white;}
+.credit
+	{display: inline-block;}
+.copy
+	{
+		padding-bottom: 15px;
+		display: inline-block;
+		padding-left: 380px;
+	}
+.copy p
+	{text-align: center;padding-bottom: 5px;}
